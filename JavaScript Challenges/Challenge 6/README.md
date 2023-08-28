@@ -56,7 +56,7 @@ Context: There are cases where you want to process a list of promises sequential
 Create a list of 5 promises, each fetching a different post (from 4 to 8) from the https://jsonplaceholder.typicode.com/posts endpoint.
 Process each promise in sequence, logging its result to the console.
 
-Hint: While for-await-of provides a clean way to iterate over promises, you can also use the traditional .then() method with reduce() to chain promises or an async function with a simple for loop. Both methods allow you to handle promises sequentially.
+Hint: use for loop to iterate the array of posts 
 
 Commit: "Challenge 6 - Done with step 3".
 
